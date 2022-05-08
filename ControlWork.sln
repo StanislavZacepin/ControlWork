@@ -12,11 +12,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Блок Схема", "Бл
 		..\..\..\Desktop\ControlWork3.drawio.pdf = ..\..\..\Desktop\ControlWork3.drawio.pdf
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{567BC389-4469-4ECE-BF3F-D7ADC323D762}"
-	ProjectSection(SolutionItems) = preProject
-		CreatNewArry.cs = CreatNewArry.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

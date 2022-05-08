@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace ControlWork.Service
+namespace ControlWork.Services
 {
-    public static class CreatNewArry
+    public  class CreatNewArry
     {
         string textSum = string.Empty;
 
-        public static int[] CreatArry(string[] arry)
+        public  string [] CreatArry(string[] arry)
         {
             for (int i = 0; i < arry.Length; i++)
             {
