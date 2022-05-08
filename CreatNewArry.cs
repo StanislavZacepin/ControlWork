@@ -12,8 +12,10 @@ public class CreatNewArry
             {
                 textSum += $"{arry[i]},";
             }
-        }          
+        }
 
-        return ;
+        string[] NewArry = textSum.Split(",", StringSplitOptions.RemoveEmptyEntries);
+
+        return NewArry;
     }
 }
