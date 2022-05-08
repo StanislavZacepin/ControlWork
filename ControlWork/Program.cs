@@ -1,16 +1,21 @@
 ﻿using System;
-using ControlWork.Service;
+using ControlWork.Services;
 
 
 namespace ControlWork
 {
     internal static class Program
     {
+        /// <summary>
+        /// Массив отправляем в функцию 
+        /// </summary>
         public static void Main()
         {
             string[] arry = new string[] { "asdasd", "123", "asd", "тан", "эх", "=)", "...." };
-
             
+            string[] NewArry = ControlWork.Services.CreatNewArry.CreatArry(arry);
+
+           
         }
     }
 

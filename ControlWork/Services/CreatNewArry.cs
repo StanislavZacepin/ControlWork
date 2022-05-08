@@ -2,11 +2,19 @@
 
 namespace ControlWork.Services
 {
-    public  class CreatNewArry
+    public static  class CreatNewArry
     {
-        string textSum = string.Empty;
+       static string textSum = string.Empty;
 
-        public  string [] CreatArry(string[] arry)
+        /// <summary>
+        /// Создания пустой строки. Походя масив. Проверя его  если в масиве элементы из 3 или меньше символов.
+        ///Если услови совпадают. Добавляем элемент состоящий из 3 и менее символов в пустую строку и добавляем ",".
+        ///Строку раздилаем и делаем масив . разделитель для слов ",".
+        ///Возвращаем массив
+        /// </summary>
+        /// <param name="arry"></param>
+        /// <returns></returns>
+        public static  string [] CreatArry(string[] arry)
         {
             for (int i = 0; i < arry.Length; i++)
             {
