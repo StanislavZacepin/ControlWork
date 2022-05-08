@@ -4,7 +4,8 @@ static class Program
 {
     public static void Main()
     {
-         
+        string [] arry = new string[] { "asdasd", "123", "asd", "тан", "эх", "=)", "...." };
+        
        
 
     }
